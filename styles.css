@@ -12,3 +12,20 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+
+.logo {
+  /* adjusting size of "Frontend Simplified img */
+  width: 300px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  /* removes list dot  */
+  list-style-type: none;
+  /* adds padding to left side of each element in nav 
+    bar */
+  padding-left: 16px;
+}
