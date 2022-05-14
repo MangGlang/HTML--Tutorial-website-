@@ -24,8 +24,28 @@ header {
   /* to match the size of the webpage on the image, or in other words to access the next portion of the webpage, use calc to subtract the original nav bar size.
      */
   height: calc(100vh - 70px);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+h1 {
+  font-size: 72px;
+}
+
+.subheader {
+  font-size: 36px;
+}
+
+button {
+  background-color: #05c7cf;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
 /* Customizing anchor tags */
 a {
   color: black;
