@@ -11,6 +11,11 @@ nav {
   height: 70px;
   display: flex;
   justify-content: space-between;
+  /* centers elements in nav bar */
+  align-items: center;
+  /* 0 padding top and bottom, 16px left and ride 
+    padding pixel divisible by 8 = nice! */
+  padding: 0 16px;
 }
 
 .logo {
