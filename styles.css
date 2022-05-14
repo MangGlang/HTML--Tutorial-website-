@@ -147,3 +147,34 @@ DISCORD
 #discord {
   background-color: #cefeff;
 }
+
+/* 
+
+CONTACT 
+
+*/
+
+#contact {
+  background-color: #dce9ff;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 auto same as flex-direction: column & align 
+    items center */
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  /* adds margin to bottom portion of input and textarea box elements */
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
+}
