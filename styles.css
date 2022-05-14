@@ -206,3 +206,37 @@ footer {
 .footer__link {
   padding: 0 16px;
 }
+
+/* 
+
+RESPONSIVENESS FOR MULTIMEDIA PLATFORMS 
+
+*/
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media (max-width: 728px) {
+  /* everything inside this bracket will take into effect when the max
+        width of the screen is 728px */
+  .row {
+    flex-direction: column;
+  }
+
+  .home__description {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 68px;
+  }
+
+  .subheader {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  button {
+  }
+}
