@@ -7,6 +7,12 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* 
+
+LANDING PAGE
+
+*/
+
 nav {
   height: 70px;
   display: flex;
@@ -79,10 +85,15 @@ li {
   justify-content: center;
 }
 
-/* ABOUT */
+/* 
+
+ABOUT
+
+*/
 
 #about {
   padding: 48px 0;
+  background-color: #f8ffdc;
 }
 
 h2 {
@@ -97,17 +108,21 @@ h2 {
 
 .about__img--wrapper {
   width: 40%;
+  /* padding: 0 24px; */
 }
 
 img {
   width: 100%;
 }
 
+.section__description--wrapper {
+  width: 60%;
+}
+
 /* adds padding to left and right side of elements
     elements will now not fall onto the sides of webpage   */
 .about__img--wrapper,
 .section__description--wrapper {
-  width: 60%;
   /* padding: 0 for top and bottom and 24 left and right */
   padding: 0 24px;
 }
@@ -117,3 +132,9 @@ img {
   line-height: 1.5;
   margin-bottom: 24px;
 }
+
+/* 
+
+DISCORD
+
+*/
