@@ -225,6 +225,11 @@ RESPONSIVENESS FOR MULTIMEDIA PLATFORMS
     margin-bottom: 24px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  .home__description--button {
+    max-width: 240px;
   }
 
   h1 {
@@ -237,6 +242,23 @@ RESPONSIVENESS FOR MULTIMEDIA PLATFORMS
     font-size: 28px;
   }
 
-  button {
+  ul {
+    display: none;
+  }
+
+  .section__description {
+    flex-direction: column;
+  }
+
+  .section__description--wrapper {
+    width: 100%;
+  }
+
+  .about__img--wrapper {
+    width: 100%;
+  }
+
+  #discord .section__description {
+    flex-direction: column-reverse;
   }
 }
